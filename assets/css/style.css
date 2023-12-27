@@ -1,0 +1,299 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(122, 2, 122, 0.245);
+   background-image: url(https://wp-s.ru/wallpapers/10/15/503616274955587/snow-covered-fir-trees-in-the-park-in-a-snowfall.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+  
+}
+.header{
+    background-color: rgba(15, 6, 15, 0.911);
+}
+.srch-btn{
+    width: 90%;
+    border-radius: 60px;
+}
+
+.me-2{
+    border-radius: 60px;
+   
+}
+h2{
+    color: whitesmoke;
+}
+
+.btn-outline-success{
+  
+    border-radius: 60px;
+    border-color: white;
+    color: rgb(255, 255, 255);
+
+}
+h4{
+    padding: 0 12px;
+    
+}
+#menubar{
+    color: whitesmoke;
+}
+.sidebar{
+    height: 600px;
+    width: 230px;
+    background-color: rgba(12, 5, 12, 0.523);
+   position: relative;
+   border-bottom-right-radius:30px ;
+   border-top-right-radius:30px ;
+    display: none;
+}
+.sidebar ul{
+    list-style-type: none;
+    padding: 20px 4px;
+
+}
+.sidebar ul li{
+    text-decoration: none;
+    padding: 14px 6px;
+  
+    
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    padding: 20px 6px;
+    color: rgb(255, 255, 255);
+    
+}
+.anchor{
+    font-weight: 200;
+    padding: 8px;
+    color: whitesmoke;
+}
+
+.anchor:hover{
+    background-color: rgba(199, 195, 199, 0.986);
+    border-radius: 10px;
+    
+}
+
+.sidebar ul li:hover{
+    background-color: rgba(207, 207, 207, 0.737);
+    
+}
+#in-btn{
+   position: absolute;
+   top: 2px;
+   right: 4px;
+  border: none;
+ font-size: 30px;
+ background: none;
+ color: rgb(248, 227, 235);
+}
+#innr-btn{
+    position: absolute;
+   top: 10px;
+   right: 10px;
+  border: none;
+ font-size: 30px;
+ background: none;
+ color: rgb(248, 227, 235);
+}
+.download-bar{
+    height: 220px;
+    width: 550px;
+    border-radius: 50px;
+    background-color: rgba(12, 5, 12, 0.523);
+    position: fixed;
+    top: 12%;
+    left: 40%;
+    display: flex;
+    display: none;
+   
+}
+/* .scan{
+    background-color: rgba(51, 38, 51, 0.351);
+    border-radius: 50px;
+   
+    display: inline;
+} */
+.download-bar h3{
+    font-size: 25px;
+    position: fixed;
+    top: 16%;
+    left: 50%;
+    /* padding-top: 25px;
+    padding-left: 16px; */
+    color: whitesmoke;
+}
+.qr-code{
+    font-size: 140px;
+    color: whitesmoke;
+}
+
+.download-bar h4{
+    position: fixed;
+    top: 18%;
+    left: 52%;
+  padding-top:20px ;
+  font-size: 20px;
+  font-weight: 100;
+  color: whitesmoke;
+}
+
+.apple{
+    height: 60px;
+    width: 160px;
+    background-color: rgba(0, 0, 0, 0.603);
+    position: fixed;
+    bottom: 450px;
+    left: 50%;
+    border-radius: 40px;
+    display: flex;
+    
+}
+
+.playstore{
+   
+    height: 60px;
+    width: 170px;
+    background-color: rgba(0, 0, 0, 0.603);
+    position: fixed;
+    bottom: 450px;
+    left: 61%;
+    border-radius: 40px;
+    display: flex;
+
+}
+
+.apple h5{
+    padding-left: 10px;
+    color: whitesmoke;
+    padding-top: 16px;
+    text-align: center;
+}
+
+.appic{
+   
+    padding-left: 10px;
+    color: whitesmoke;
+    padding-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.playstore h5{
+    padding-left: 10px;
+    color: whitesmoke;
+    padding-top: 16px;
+    text-align: center;
+}
+
+.playstore .appic{
+  
+    padding-left: 10px;
+    color: whitesmoke;
+    padding-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.main-section{
+   
+    position: fixed;
+    top: 47%;
+    left: 35%;
+   display: none;
+   background-color: rgba(12, 5, 12, 0.523);
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color: hwb(0 99% 1% / 0.986);
+    position: fixed;
+    top: 80%;
+   right: 2%;
+   border-radius: 30px;
+}
+.picon{
+    font-size: 30px;
+    padding: 20px 10px;
+    color: rgb(5, 4, 4);
+}
+
+ a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.line-one{
+ 
+  display: flex;
+ height: 50px;
+ justify-content: center;
+ align-items: center;
+ padding: 20px 30px;
+ margin: 10px auto;
+
+}
+
+.line-one h3{
+    padding: 12px;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.input-one{
+    width: 370px;
+    height: 35px;
+    margin-left: 70px;
+    border-radius: 30px;
+    
+}
+
+.input{
+    width: 370px;
+    height: 35px;
+    margin-left: 70px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.pas{
+    display: inline-block;
+    color: rgb(228, 228, 232);
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+.last{
+   
+    display: flex;
+    margin-top: 20px;
+   justify-content: center;
+   align-items: center;
+   margin-left: 12px;
+}
+
+.last img{
+    height: 30px;
+    width: 30px;
+    margin-left: 12px;
+}
+
+#lastbtn{
+    position: absolute;
+    top: 0px;
+    right: 1px;
+   border: none;
+  font-size: 30px;
+  background: none;
+  color: rgb(232, 232, 232);
+}
